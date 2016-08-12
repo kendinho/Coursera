@@ -26,16 +26,19 @@ body {
 #hone {
   background: black;
   width: 30%;
+    float: left;
 }
 
 #hthree {
   background: red;
   width: 90%;
+  float: left;
 }
 
 #htwo {
   background: violet;
   width: 60%;
+    float: left;
 }
 
 @media (min-width: 992px) { 
