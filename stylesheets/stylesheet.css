@@ -27,18 +27,21 @@ body {
   background: black;
   width: 30%;
     float: left;
+    text-align: center;
 }
 
 #hthree {
   background: red;
   width: 30%;
   float: left;
+  text-align: center;
 }
 
 #htwo {
   background: violet;
   width: 30%;
     float: left;
+     text-align: center;
 }
 
 @media (min-width: 992px) { 
