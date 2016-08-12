@@ -30,12 +30,12 @@ body {
 
 #hthree {
   background: red;
-  width: 30%;
+  width: 90%;
 }
 
 #htwo {
   background: violet;
-  width: 30%;
+  width: 60%;
 }
 
 @media (min-width: 992px) { 
