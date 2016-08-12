@@ -11,17 +11,17 @@ body {
    background: blue;
 }
   
-  
-.First {
-  background: green;
-  width: 100%;}
-  
   p {
     
     height: 200px;
     border: 2px solid yellow;
     padding: 0px;
   }
+  
+    
+.First {
+  background: green;
+  width: 100%;}
   
     #hone {
   background: black;
@@ -52,6 +52,7 @@ body {
   .First {
   background: green;
   width: 100%;}
+  
   #hone {
   background: black;
   width: 30%;
@@ -82,6 +83,7 @@ body {
    .First {
   background: green;
   width: 100%;}
+  
   #hone {
   background: black;
   width: 50%;
@@ -108,7 +110,7 @@ body {
 }
    }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   
    .First {
   background: green;
