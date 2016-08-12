@@ -9,8 +9,8 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
-h1 {
- background: green solid;
+.First, .Second, .Third {
+ 
   border-style: solid;
 }
 
