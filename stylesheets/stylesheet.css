@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box; }
+  
 body {
   padding: 0;
   margin: 0;
@@ -13,10 +14,35 @@ body {
   p {
     
     height: 200px;
-    border: 1px solid red;
-    padding: 10px;
+    border: 2px solid yellow;
+    padding: 0px;
     
   }
+  
+    #hone {
+  background: black;
+  width: 30%;
+  
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+
+#hthree {
+  background: red;
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: 10px;
+}
+
+#htwo {
+  background: violet;
+  width: 30%;
+    float: left;
+     text-align: center;
+     margin: 10px;
+}
 
 .First {
   background: green;
@@ -24,6 +50,9 @@ body {
 }
 
 @media (min-width: 992px) { 
+  .First {
+  background: green;
+  width: 100%;}
   #hone {
   background: black;
   width: 30%;
@@ -51,7 +80,9 @@ body {
   }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  
+   .First {
+  background: green;
+  width: 100%;}
   #hone {
   background: black;
   width: 50%;
@@ -79,6 +110,10 @@ body {
    }
 
 @media (min-width: 767px) {
+  
+   .First {
+  background: green;
+  width: 100%;}
   #hone {
   background: black;
   width: 100%;
