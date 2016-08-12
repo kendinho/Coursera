@@ -10,7 +10,8 @@ body {
   color: #606c71; }
 
 .First, .Second, .Third {
- 
+ height: 100px;
+    width: 200px;
   border-style: solid;
 }
 
