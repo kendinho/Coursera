@@ -10,6 +10,10 @@ body {
   color: #606c71; 
    background: blue;
 }
+
+h1 {
+  text-align: center;
+}
   
   p {
     
@@ -24,12 +28,19 @@ body {
   width: 100%;}
   
     #hone {
+      Position: relative;
   background: black;
   width: 30%;
    border: 2px solid yellow;
     float: left;
     text-align: center;
     margin: 10px;
+}
+
+#p1 {
+  Position: relative;
+  top: 0px;
+  left:0px;
 }
 
 #hthree {
