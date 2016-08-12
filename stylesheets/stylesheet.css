@@ -7,7 +7,9 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71; 
+   background: blue;
+}
   
   p {
     width: 30%;
@@ -21,13 +23,6 @@ body {
   
 }
 
-
-.First {
- height: 100px;
-    width: 600px;
-    background: black;
-  border-style: solid red 1px;
-}
 div {
   background: green;
 }
