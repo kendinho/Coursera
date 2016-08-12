@@ -14,7 +14,7 @@ body {
   p {
     
     height: 200px;
-    border: 2px solid yellow;
+   
     padding: 5px;
   }
   
@@ -26,7 +26,7 @@ body {
     #hone {
   background: black;
   width: 30%;
-  
+   border: 2px solid yellow;
     float: left;
     text-align: center;
     margin: 10px;
@@ -38,6 +38,7 @@ body {
   float: left;
   text-align: center;
   margin: 10px;
+   border: 2px solid yellow;
 }
 
 #htwo {
@@ -46,6 +47,7 @@ body {
     float: left;
      text-align: center;
      margin: 10px;
+      border: 2px solid yellow;
 }
 
 @media (min-width: 992px) { 
@@ -56,7 +58,7 @@ body {
   #hone {
   background: black;
   width: 30%;
-  
+   border: 2px solid yellow;
     float: left;
     text-align: center;
     margin: 10px;
@@ -68,6 +70,7 @@ body {
   float: left;
   text-align: center;
   margin: 10px;
+   border: 2px solid yellow;
 }
 
 #htwo {
@@ -76,6 +79,7 @@ body {
     float: left;
      text-align: center;
      margin: 10px;
+      border: 2px solid yellow;
 }
   }
 
@@ -86,8 +90,8 @@ body {
   
   #hone {
   background: black;
-  width: 50%;
-  
+  width: 45%;
+   border: 2px solid yellow;
     float: left;
     text-align: center;
     margin: 10px;
@@ -99,14 +103,16 @@ body {
   float: left;
   text-align: center;
   margin: 10px;
+   border: 2px solid yellow;
 }
 
 #htwo {
   background: violet;
-  width: 50%;
+  width: 45%;
     float: left;
      text-align: center;
      margin: 10px;
+      border: 2px solid yellow;
 }
    }
 
@@ -118,7 +124,7 @@ body {
   #hone {
   background: black;
   width: 100%;
-  
+   border: 2px solid yellow;
     float: left;
     text-align: center;
     margin: 10px;
@@ -130,6 +136,7 @@ body {
   float: left;
   text-align: center;
   margin: 10px;
+   border: 2px solid yellow;
 }
 
 #htwo {
@@ -138,5 +145,6 @@ body {
     float: left;
      text-align: center;
      margin: 10px;
+      border: 2px solid yellow;
 }
   }
