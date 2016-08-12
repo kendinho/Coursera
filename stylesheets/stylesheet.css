@@ -15,7 +15,7 @@ body {
     
     height: 200px;
     border: 2px solid yellow;
-    padding: 0px;
+    padding: 5px;
   }
   
     
@@ -86,7 +86,7 @@ body {
   
   #hone {
   background: black;
-  width: 40%;
+  width: 50%;
   
     float: left;
     text-align: center;
@@ -103,7 +103,7 @@ body {
 
 #htwo {
   background: violet;
-  width: 40%;
+  width: 50%;
     float: left;
      text-align: center;
      margin: 10px;
