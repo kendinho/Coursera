@@ -38,14 +38,11 @@ body {
   width: 30%;
 }
 
-@media screen and (min-width: 64em) { 
-  .site-footer {
-    font-size: 1rem; } }
+@media (min-width: 992px) { 
+  }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .site-footer {
-    font-size: 1rem; } }
+@media (min-width: 768px) and (max-width: 991px) {
+   }
 
-@media screen and (max-width: 42em) {
-  .site-footer {
-    font-size: 0.9rem; } }
+@media (min-width: 767px) {
+  }
