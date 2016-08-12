@@ -23,7 +23,8 @@ body {
   width: 100%;
 }
 
-#hone {
+@media (min-width: 992px) { 
+  #hone {
   background: black;
   width: 30%;
   
@@ -47,12 +48,59 @@ body {
      text-align: center;
      margin: 10px;
 }
-
-@media (min-width: 992px) { 
   }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  
+  #hone {
+  background: black;
+  width: 50%;
+  
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+
+#hthree {
+  background: red;
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 10px;
+}
+
+#htwo {
+  background: violet;
+  width: 50%;
+    float: left;
+     text-align: center;
+     margin: 10px;
+}
    }
 
 @media (min-width: 767px) {
+  #hone {
+  background: black;
+  width: 100%;
+  
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+
+#hthree {
+  background: red;
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 10px;
+}
+
+#htwo {
+  background: violet;
+  width: 100%;
+    float: left;
+     text-align: center;
+     margin: 10px;
+}
   }
