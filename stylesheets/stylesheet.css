@@ -18,7 +18,7 @@ body {
  height: 100px;
     width: 600px;
     background: black;
-  border-style: solid 1px;
+  border-style: solid red 1px;
 }
 
 #hthree {
