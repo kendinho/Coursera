@@ -11,12 +11,16 @@ body {
    background: blue;
 }
   
+  
+.First {
+  background: green;
+  width: 100%;}
+  
   p {
     
     height: 200px;
     border: 2px solid yellow;
     padding: 0px;
-    
   }
   
     #hone {
@@ -42,11 +46,6 @@ body {
     float: left;
      text-align: center;
      margin: 10px;
-}
-
-.First {
-  background: green;
-  width: 100%;
 }
 
 @media (min-width: 992px) { 
