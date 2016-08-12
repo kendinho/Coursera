@@ -86,7 +86,7 @@ body {
   
   #hone {
   background: black;
-  width: 50%;
+  width: 40%;
   
     float: left;
     text-align: center;
@@ -103,7 +103,7 @@ body {
 
 #htwo {
   background: violet;
-  width: 50%;
+  width: 40%;
     float: left;
      text-align: center;
      margin: 10px;
