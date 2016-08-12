@@ -9,6 +9,13 @@ body {
   line-height: 1.5;
   color: #606c71; }
   
+  p {
+    width: 30%;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+  }
+  
 .project-name {
   
 }
@@ -20,17 +27,22 @@ body {
     background: black;
   border-style: solid red 1px;
 }
+div {
+  background: green;
+}
+
+#hone {
+  background: black;
+}
 
 #hthree {
-  float: right;
+  background: red;
 }
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
- 
+
+#htwo {
+  background: violet;
+}
+
 
 @media screen and (min-width: 64em) {
   .page-header {
