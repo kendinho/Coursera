@@ -8,11 +8,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
+  
+.project-name {
+  
+}
+
 
 .First {
  height: 100px;
     width: 600px;
-  border-style: solid;
+    background: black;
+  border-style: solid 1px;
 }
 
 #hthree {
