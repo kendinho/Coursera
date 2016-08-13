@@ -22,7 +22,17 @@ h1 {
     font-size: 12px;
   }
   
+ #p1 {
+   color:violet;
+ }
  
+  #p2 {
+   color:green;
+ }
+ 
+  #p3 {
+   color:blue;
+ }
 .First {
   background: green;
   width: 100%;}
