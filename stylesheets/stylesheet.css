@@ -17,7 +17,7 @@ h1 {
   
   p {
     
-    height: 10px;
+    height: 5px;
     padding: 0px;
     font-size: 12px;
   }
@@ -26,34 +26,6 @@ h1 {
 .First {
   background: green;
   width: 100%;}
-  
-    #hone {
-      Position: relative;
-  background: black;
-  width: 30%;
-   border: 2px solid yellow;
-    float: left;
-    text-align: right;
-    margin: 10px;
-}
-
-#hthree {
-  background: red;
-  width: 30%;
-  float: left;
-  text-align: center;
-  margin: 10px;
-   border: 2px solid yellow;
-}
-
-#htwo {
-  background: violet;
-  width: 30%;
-    float: left;
-     text-align: center;
-     margin: 10px;
-      border: 2px solid yellow;
-}
 
 @media (min-width: 992px) { 
   .First {
