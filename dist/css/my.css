@@ -1,0 +1,48 @@
+* {
+
+}
+
+body {
+	background-color: purple;
+}
+
+h1 {
+	text-align: center;
+	text-underline-position: auto;
+	color: white;
+}
+
+#jb {
+	background-color: grey;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	margin-top: -15px;
+	color: white;
+}
+
+#brand {
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+@media (max-width: 767px) {
+	#nav-list {
+		text-align: center;
+		color: black;
+		background: green;
+		font-size: 18px;
+		font-weight: bolder;
+	}
+
+	#nav-list a:hover {
+		background-color: yellow;
+	}
+}
+@media (min-width: 768px) {
+			#nav-list {
+				visibility: hidden;
+			}	
+}

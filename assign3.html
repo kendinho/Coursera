@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/my.css" rel="stylesheet">
+    <title>Assignment 3 Solution</title>
+
+	</head>
+
+	<body> 
+			<!--Container-->
+			<div class="container">
+					<!--Brand and Navigation-->
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button id="mybtn" type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+      						  		<span class="sr-only">Toggle navigation</span>
+        							<span class="icon-bar"></span>
+        							<span class="icon-bar"></span>
+        							<span class="icon-bar"></span>
+      						</button>
+      						 <a class="navbar-brand" href="#">
+        						<img  height="30px" width="30px" alt="Brand" src="data:image/png;base64,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">
+      							</a>
+
+      						 <a id="brand" class="navbar-brand" href="#">Food, LLC</a>
+						</div>
+						<!---Menu items or list---->
+						<div id="collapsable-nav" class="collapse navbar-collapse">
+							<ul id="nav-list" class="nav navbar-nav navbar-right">
+								<li class="hidden-lg hidden-md hidden-sm"><a href="#">Chicken</a></li>
+								<li class="hidden-lg hidden-md hidden-sm"><a href="#">Beef</a></li>
+								<li class="hidden-lg hidden-md hidden-sm"><a href="#">Sushi</a></li>
+							</ul>
+						</div>
+					</nav>
+					<!--Header (Our Menu) -->
+					<div class="page-header">
+					<h1>Our Menu</h1>
+					</div>
+
+					<!--jambotron--> 
+					<div class="jumbotron" id="jb">
+							
+							<h2>Chicken</h2>
+							<p>
+
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+							</p>
+
+							<p>
+								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+
+							</p>
+
+							<p>
+								There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+
+
+							</p>
+					</div>
+
+					<!--Footer-->
+					<div>
+					</div>
+			</div>
+			 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+
+	</body>
+
+</html>
